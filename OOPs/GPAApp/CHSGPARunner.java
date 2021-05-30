@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class CHSGPARunner {
     public static void main(String[] args) {
+      // creating students
       double[] grades = {100.0, 100.0, 100.0, 100.0, 100.0};
       int[] levels = {4,4,4,4,4};
       StudentRecords bulma = new StudentRecords(grades, "Bulma", levels);
